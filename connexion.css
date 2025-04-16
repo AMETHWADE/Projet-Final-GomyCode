@@ -19,6 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* barre de nav */
 header {
     position: fixed;
@@ -71,18 +72,18 @@ header button {
   text-decoration: none;
   padding: 5px 25px;
 }
+
 /* fin */
 
 
-/* Pge de contact */
-  .container {
+.container {
     max-width: 600px;
     margin: 0 auto;
     background-color: white;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 65px;
+    margin-top:100px;
   }
   
   h1 {
@@ -98,7 +99,7 @@ header button {
   
   label {
     margin-bottom: 8px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   input, textarea {
@@ -127,11 +128,4 @@ header button {
   
   button:hover {
     background-color: #333;
-  }
-  .btn{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 5px 25px;
-    
   }

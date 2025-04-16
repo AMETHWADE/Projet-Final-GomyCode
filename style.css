@@ -66,14 +66,14 @@ header button {
     padding: 5px 25px;
 }
 
-/*  acceuil (img) */
+/*  (img) section hero */
 .img1{
      text-align: center;
      margin-top: 70px;
 }
 
 
-/*  section acceuil */
+/*  section hero*/
 .titre{
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ header button {
   
 }
   
-/* mm */
+
 
 .product-preview {
   display: flex;
@@ -246,18 +246,12 @@ header button {
   
  
 
-  /* section contact */
-  #contact {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 12%;
-    
-}
+/* section adresse */
+
+
 .localisation_contact_div {
+ 
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -294,23 +288,9 @@ header button {
     flex-direction: column;
     width: 100%;
 }
-.form_contact form input , textarea {
-    border: 1px solid #ccc;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 5px;
-    outline: 0;
-    border-radius: 6px;
-    font-size: 15px;
-    resize: none;
-}
-.form_contact form input[type="submit"]{
-    margin-bottom: 0;
-    background-color: black;
-    color: #fff;
-    border: 0;
 
-}
+
+
 
     /* pied de page */
 
